@@ -1,0 +1,15 @@
+{
+  "name" : "RenTek-[Delta]:ArmouryEvolved",
+  "version" : "8.1.0",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "displayName" : "RenTek-[Delta]: Armoury Evolved",
+	"author" : "Dilrax",
+	"thanks" : {
+	  "Reni, Zancuno" : [ "Programming" ],
+	},
+	"version" : "DeltaLab-PrivateerOrdinance",
+	"description" : "Spacial Exploration Equipment By the RenTek Corp's Delta Lab."
+  }
+}

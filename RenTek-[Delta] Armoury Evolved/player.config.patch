@@ -1,0 +1,30 @@
+[
+	//PLAYABLE SPECIES
+	//Dire
+	{"op" : "add",
+		"path" : "/species/-",
+		"value" : "direwolf"
+	},
+	//SPECIAL SPECIES
+	//RENTEK
+	{"op" : "add",
+		"path" : "/species/-",
+		"value" : "rentek"
+	},
+	//SPECIES TRAIT
+	//Dire
+	{ "op": "add", 
+		"path" : "/statusControllerSettings/primaryScriptSources/-", 
+		"value" : "/scripts/racedireEffects.lua" },
+	//CODEXES
+	//Direwolf
+	{"op" : "add",
+		"path" : "/defaultCodexes/direwolf",
+		"value" : [ "direwolfhistory1", "direwolfhistory2", "direwolfhistory3", "direwolfhistory4", "direwolfhistory5", "direwolfhistory6", "direwolfhistory7", "direwolfhistory8", "direwolfhistory9", "direwolfhistory10" ]
+	},
+	//Rentek
+	{"op" : "add",
+		"path" : "/defaultCodexes/rentek",
+		"value" : [ "rentekhistory1", "rentekhistory2", "rentekhistory3", "rentekhistory4", "rentekhistory5", "rentekhistory6", "rentekhistory7", "rentekhistory8", "rentekhistory9", "rentekhistory10" ]
+	}
+]

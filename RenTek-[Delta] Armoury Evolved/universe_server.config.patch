@@ -1,0 +1,30 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/rentek",
+		"value" : [
+		    "/ships/rentek/rentekT0.structure",
+			"/ships/rentek/rentekT1.structure",
+			"/ships/rentek/rentekT2.structure",
+			"/ships/rentek/rentekT3.structure",
+			"/ships/rentek/rentekT4.structure",
+			"/ships/rentek/rentekT5.structure",
+			"/ships/rentek/rentekT6.structure",
+			"/ships/rentek/rentekT7.structure",
+			"/ships/rentek/rentekT8.structure"
+		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/direwolf",
+		"value" : [
+		    "/ships/direwolf/direwolfT0.structure",
+			"/ships/direwolf/direwolfT1.structure",
+			"/ships/direwolf/direwolfT2.structure",
+			"/ships/direwolf/direwolfT3.structure",
+			"/ships/direwolf/direwolfT4.structure",
+			"/ships/direwolf/direwolfT5.structure",
+			"/ships/direwolf/direwolfT6.structure",
+			"/ships/direwolf/direwolfT7.structure",
+			"/ships/direwolf/direwolfT8.structure"
+		]
+	}
+]
