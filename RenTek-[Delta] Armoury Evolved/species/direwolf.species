@@ -1,0 +1,210 @@
+{
+  "kind" : "direwolf",
+  "charCreationTooltip" : {
+      "title" : "Dire Wolf",
+      "subTitle" : "DW",
+      "description" : "a Rare Species of Canis very rarely ever seen, Now made Common though Science DNA Splicing Experiments, Compared to other types of Canis these Dire boast higher Endurance, Intellect and Physical Strength with the ability to chose their elemental Affinifty.
+	  ^green;+40% Health^reset;
+    ^green;+30% Damage: All Types^reset;
+    ^red;Fall +10% Faster and is 5% Heavier"
+  },
+  "nameGen" : [ "/species/direwolfnamegen.config:names", "/species/direwolfnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/npc/quadruped/canine_pain1.ogg", "/sfx/npc/quadruped/canine_pain2.ogg" ],
+  "gruntNoises" : [ [ "/sfx/npc/quadruped/canine_idle1.ogg" ], [ "/sfx/npc/quadruped/canine_idle2.ogg" ] ],
+  "charGenTextLabels" : [ "Fur Colour", "Markings", "N/A", "N/A", "Alt Color", "N/A", "N/A", "N/A", "DIRE WOLF", "Personality" ],
+  "skull" : "/humanoid/rentek/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+// Empty Hands
+      { "item" : "flaghuman" },
+
+/// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "humanshipdoor" },
+      { "item" : "humanshiphatch" },
+
+// Spinning Wheel
+      { "item" : "conceptchest" },
+      { "item" : "conceptlegs" },
+      { "item" : "coolchest" },
+      { "item" : "coollegs" },
+      { "item" : "sweatervestchest" },
+      { "item" : "sweatervestlegs" },
+      { "item" : "workoutchest" },
+      { "item" : "workoutlegs" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/diremale.png",
+      "characterImage" : "/interface/title/diremale.png",
+	  "hairGroup" : "hair",
+      "hair" : [ "" ],
+      "shirt" : [ "" ],
+      "pants" : [ "" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/direfem.png",
+      "characterImage" : "/interface/title/direfem.png",
+	  "hairGroup" : "hair",
+      "hair" : [ "" ],
+      "shirt" : [ "" ],
+      "pants" : [ "" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [ //fur
+    { "e0975c" : "7f4d44","a85636" : "79453c","6f2919" : "713d37"},
+	{ "e0975c" : "683636","a85636" : "5f2d2e","6f2919" : "542225"},
+	{ "e0975c" : "6c4239","a85636" : "673c33","6f2919" : "5a312f"},
+	{ "e0975c" : "5a312f","a85636" : "542a29","6f2919" : "4b2122"},
+	{ "e0975c" : "c9d9d9","a85636" : "bbc9c9","6f2919" : "adbaba"},
+	{ "e0975c" : "a7a8a8","a85636" : "8d8e8e","6f2919" : "6f7070"},
+	{ "e0975c" : "7e8080","a85636" : "6e6f6f","6f2919" : "495050"},
+	{ "e0975c" : "272828","a85636" : "1e1f1f","6f2919" : "151616"},
+	{ "e0975c" : "5f6478","a85636" : "535869","6f2919" : "494b59"},
+	{ "e0975c" : "94a7bd","a85636" : "7c89a0","6f2919" : "656f82"},
+	{ "e0975c" : "8fa7a3","a85636" : "839995","6f2919" : "6d807c"},
+	{ "e0975c" : "7a8f8a","a85636" : "6b7d78","6f2919" : "5d6d69"},
+	{ "e0975c" : "21ab8f","a85636" : "1e9c82","6f2919" : "1b8d76"},
+	{ "e0975c" : "29575e","a85636" : "23494f","6f2919" : "1c3b40"},
+	{ "e0975c" : "3e818c","a85636" : "37737d","6f2919" : "30656e"},
+	{ "e0975c" : "1cb4d4","a85636" : "199eba","6f2919" : "1688a1"},
+	{ "e0975c" : "0f5d6e","a85636" : "0b4754","6f2919" : "08323b"},
+	{ "e0975c" : "8d1dd4","a85636" : "7c19ba","6f2919" : "6b16a1"},
+	{ "e0975c" : "490f6e","a85636" : "380b54","6f2919" : "27083b"},
+	{ "e0975c" : "5518a8","a85636" : "48148e","6f2919" : "3b1175"},
+	{ "e0975c" : "8fa7a3","a85636" : "839995","6f2919" : "6d807c"},
+	{ "e0975c" : "7a8f8a","a85636" : "6b7d78","6f2919" : "5d6d69"},
+	{ "e0975c" : "ccb07f","a85636" : "bfa577","6f2919" : "a68f67"},
+	{ "e0975c" : "91794e","a85636" : "856f47","6f2919" : "786440"},
+	{ "e0975c" : "b08c4c","a85636" : "a38246","6f2919" : "8a6d3b"},
+	{ "e0975c" : "d57b1b","a85636" : "c77319","6f2919" : "b86a17"},
+	{ "e0975c" : "9c6b1a","a85636" : "8d6118","6f2919" : "7d5615"},
+	{ "e0975c" : "d51d23","a85636" : "c51b21","6f2919" : "b5191e"},
+	{ "e0975c" : "9c1628","a85636" : "8d1424","6f2919" : "7a111f"}
+	
+  ],
+  "undyColor" : [ //eyecolor
+  { "dc1f00" : "7f4d44","be1b00" : "79453c","a51500" : "713d37","951500" : "6f3a34" },
+  { "dc1f00" : "6f3a34","be1b00" : "683636","a51500" : "5f2d2e","951500" : "542225" },
+  { "dc1f00" : "6c4239","be1b00" : "673c33","a51500" : "5a312f","951500" : "542a29" },
+  { "dc1f00" : "673c33","be1b00" : "5a312f","a51500" : "542a29","951500" : "4b2122" },
+  { "dc1f00" : "d7e8e8","be1b00" : "c9d9d9","a51500" : "bbc9c9","951500" : "adbaba" },
+  { "dc1f00" : "a7a8a8","be1b00" : "8d8e8e","a51500" : "7f8080","951500" : "6f7070" },
+  { "dc1f00" : "7e8080","be1b00" : "6e6f6f","a51500" : "545c5c","951500" : "495050" },
+  { "dc1f00" : "2e2f2f","be1b00" : "272828","a51500" : "1e1f1f","951500" : "151616" },
+  { "dc1f00" : "6b7187","be1b00" : "5f6478","a51500" : "535869","951500" : "494b59" },
+  { "dc1f00" : "94a7bd","be1b00" : "7c89a0","a51500" : "717c91","951500" : "656f82" },
+  { "dc1f00" : "8fa7a3","be1b00" : "839995","a51500" : "788c89","951500" : "6d807c" },
+  { "dc1f00" : "839995","be1b00" : "7a8f8a","a51500" : "6b7d78","951500" : "5d6d69" },
+  { "dc1f00" : "24ba9c","be1b00" : "21ab8f","a51500" : "1e9c82","951500" : "1b8d76" },
+  { "dc1f00" : "30656e","be1b00" : "29575e","a51500" : "23494f","951500" : "1c3b40" },
+  { "dc1f00" : "448f9c","be1b00" : "3e818c","a51500" : "37737d","951500" : "30656e" },
+  { "dc1f00" : "20cef2","be1b00" : "1cb4d4","a51500" : "199eba","951500" : "1688a1" },
+  { "dc1f00" : "127387","be1b00" : "0f5d6e","a51500" : "0b4754","951500" : "08323b" },
+  { "dc1f00" : "bf2df2","be1b00" : "8d1dd4","a51500" : "7c19ba","951500" : "6b16a1" },
+  { "dc1f00" : "5a1287","be1b00" : "490f6e","a51500" : "380b54","951500" : "27083b" },
+  { "dc1f00" : "621bc2","be1b00" : "5518a8","a51500" : "48148e","951500" : "3b1175" },
+  { "dc1f00" : "8fa7a3","be1b00" : "839995","a51500" : "788c89","951500" : "6d807c" },
+  { "dc1f00" : "839995","be1b00" : "7a8f8a","a51500" : "6b7d78","951500" : "5d6d69" },
+  { "dc1f00" : "ccb07f","be1b00" : "bfa577","a51500" : "b39a6f","951500" : "a68f67" },
+  { "dc1f00" : "9e8455","be1b00" : "91794e","a51500" : "856f47","951500" : "786440" },
+  { "dc1f00" : "b08c4c","be1b00" : "a38246","a51500" : "977841","951500" : "8a6d3b" },
+  { "dc1f00" : "f58d1f","be1b00" : "d57b1b","a51500" : "c77319","951500" : "b86a17" },
+  { "dc1f00" : "ab751c","be1b00" : "9c6b1a","a51500" : "8d6118","951500" : "7d5615" },
+  { "dc1f00" : "f52128","be1b00" : "d51d23","a51500" : "c51b21","951500" : "b5191e" },
+  { "dc1f00" : "ab182c","be1b00" : "9c1628","a51500" : "8d1424","951500" : "7a111f" }
+  
+  ],
+  "hairColor" : [
+   { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
+    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
+    { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
+    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
+    { "d9c189" : "f2eba3", "a38d59" : "dcd28c", "735e3a" : "c2b677" },
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
+    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" },
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    { "d9c189" : "cd72d9", "a38d59" : "ac4da6", "735e3a" : "913b86" },
+    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
+    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
+    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
+    { "d9c189" : "3b7f44", "a38d59" : "2e6a38", "735e3a" : "1d4b28" },
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" }
+  ]
+}

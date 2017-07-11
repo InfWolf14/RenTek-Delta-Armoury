@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 4
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "rentekT4.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "rentekT4lit.png",
+      "position" : [0, 0]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "rentekT4blocks.png"
+}
