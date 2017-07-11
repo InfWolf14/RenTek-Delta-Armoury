@@ -1,0 +1,327 @@
+{ "margin":0,
+ "name":"ae-main_exteria",
+ "properties": {
+    },
+ "spacing":0,
+  "tilecount" : 76,
+  "tileheight" : 696,
+ "tileproperties":
+    {
+     "0":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae01",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aea",
+      "tilesetDirection" : "right"
+        },
+     "1":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae02",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeb",
+      "tilesetDirection" : "right"
+        },
+     "2":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae03",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aec",
+      "tilesetDirection" : "right"
+        },
+     "3":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae04",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aed",
+      "tilesetDirection" : "right"
+        },
+     "4":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae05",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aee",
+      "tilesetDirection" : "right"
+        },
+     "5":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae06",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aef",
+      "tilesetDirection" : "right"
+        },
+     "6":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae07",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeg",
+      "tilesetDirection" : "right"
+        },
+     "7":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae10",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aej",
+      "tilesetDirection" : "right"
+        },
+     "10":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae11",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aek",
+      "tilesetDirection" : "right"
+        },
+     "11":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae12",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "ael",
+      "tilesetDirection" : "right"
+        },
+     "12":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae13",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aem",
+      "tilesetDirection" : "right"
+        },
+     "13":
+        {
+         "/description":"main deck ship part",
+         "//shortdescription":"ae14",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aen",
+      "tilesetDirection" : "right"
+        },
+     "14":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae15",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeo",
+      "tilesetDirection" : "right"
+        },
+     "15":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae16",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aep",
+      "tilesetDirection" : "right"
+        },
+     "16":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae17",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeq",
+      "tilesetDirection" : "right"
+        },
+     "17":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae18",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aer",
+      "tilesetDirection" : "right"
+        },
+     "18":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae20",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aet",
+      "tilesetDirection" : "right"
+        },
+     "20":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae21",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeu",
+      "tilesetDirection" : "right"
+        },
+     "21":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae22",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aev",
+      "tilesetDirection" : "right"
+        },
+     "22":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae23",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aew",
+      "tilesetDirection" : "right"
+        },
+     "23":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae24",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aex",
+      "tilesetDirection" : "right"
+        },
+     "24":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae25",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aey",
+      "tilesetDirection" : "right"
+        },
+     "25":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae26",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aez",
+      "tilesetDirection" : "right"
+        },
+     "26":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"ae27",
+         "allowOverdrawing":"true",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "aeza",
+      "tilesetDirection" : "right"
+        }
+    },
+ "tiles":
+    {
+    "0" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae01.png"
+    },
+    "1" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae02.png"
+    },
+    "2" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae03.png"
+    },
+    "3" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae04.png"
+    },
+    "4" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae05.png"
+    },
+    "5" : {
+ 		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae06.png"
+    },
+    "6" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae07.png"
+    },
+    "7" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae10.png"
+    },
+    "10" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae11.png"
+    },
+    "11" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae12.png"
+    },
+    "12" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae13.png"
+    },
+    "13" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae14.png"
+    },
+    "14" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae15.png"
+    },
+    "15" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae16.png"
+    },
+    "16" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae17.png"
+    },
+    "17" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae18.png"
+    },
+    "18" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae20.png"
+    },
+    "20" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae21.png"
+    },
+	"21" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae22.png"
+    },
+    "22" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae23.png"
+    },
+    "23" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae24.png"
+    },
+    "24" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae25.png"
+    },
+    "25" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae26.png"
+    },
+    "26" : {
+		"image" : "./../../../../mods/RenTek- Armoury Evolved/tiles/starlight/ae27.png"
+    }
+    },
+  "tilewidth" : 704
+}

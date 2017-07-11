@@ -1,0 +1,16 @@
+{
+  "name" : "racerentek",
+  "effectConfig" : {
+      "powerModifier" : 0.0,
+      "healthBonus" : 0.35,
+      "energyBonus" : 0.30,
+	  "gritBonus" : 0.15,
+	  "maxFallSpeed" : 10.0
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "racerentek.lua"
+  ]
+
+}

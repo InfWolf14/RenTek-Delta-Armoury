@@ -1,0 +1,10 @@
+{
+  "name" : "racedirewolf-ice",
+  "effectConfig" : {
+  },
+
+  "scripts" : [
+    "racedirewolf-ice.lua"
+  ]
+
+}

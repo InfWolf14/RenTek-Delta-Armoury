@@ -1,0 +1,14 @@
+[	
+	{"op" : "add",
+		"path" : "/direwolfStarterTreasure",
+		"value" : [
+			[0, {
+			"fill" : [
+				{"pool" : "starterTreasure"},
+				{"item" : [ "trait datachit", 1]},
+				{"item" : [ "diretrait console", 1]}
+			]
+			}]
+		]	
+	}
+]

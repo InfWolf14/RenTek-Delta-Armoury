@@ -1,0 +1,10 @@
+{
+  "name" : "racedirewolf-poison",
+  "effectConfig" : {
+  },
+
+  "scripts" : [
+    "racedirewolf-poison.lua"
+  ]
+
+}
