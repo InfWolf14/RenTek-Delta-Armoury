@@ -1,0 +1,8 @@
+{
+  "itemName" : "trait datachit",
+  "rarity" : "Essential",
+  "inventoryIcon" : "traitdatachit.png",
+  "description" : "Used by the Dire, allows one to pick their Elemental Afinity from the Trait Console",
+  "shortdescription" : "Elemental Augment Codex",
+  "pickupQuestTemplates" : [ "rt_direwolftrait" ]
+}

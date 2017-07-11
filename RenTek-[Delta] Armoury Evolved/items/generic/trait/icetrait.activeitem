@@ -1,0 +1,20 @@
+{
+  "itemName" : "direice trait",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "SpeciesModifier",
+  "description" : "Use this to Change your Elemental Affinity to Ice.",
+  "shortdescription" : "Ice Affinity Modifier",
+  "twoHanded" : true,
+  "itemTags" : [ "traitconsole", "direwolf", "diretrait" ],
+  
+  "inventoryIcon" : "icetraiticon.png",
+  "animation" : "icetrait.animation",
+  "animationCustom" : {},
+  "scripts" : ["icetrait.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0]
+}
