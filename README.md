@@ -1,2 +1,4 @@
-# RenTek-Delta-Armoury
- RenTek: [Delta] Armoury Revival
+# RenTek-Delta-Armoury 
+ Branch: Dilrax-patch-1
+
+Branch is of no major importance, serves as a back up.
