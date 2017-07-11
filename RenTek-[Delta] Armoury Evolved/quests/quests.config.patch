@@ -1,0 +1,11 @@
+[
+	{ "op" : "add",
+		"path" : "/initialquests/rentek",
+		"value" : [ "protectorate" ]
+	},
+	{ "op" : "add",
+		"path" : "/initialquests/direwolf",
+		"value" : [ "protectorate" ]
+	}
+]
+

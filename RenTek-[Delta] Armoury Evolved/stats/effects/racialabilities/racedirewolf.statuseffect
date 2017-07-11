@@ -1,0 +1,15 @@
+{
+  "name" : "racedirewolf",
+  "effectConfig" : {
+      "powerModifier" : 0.0,
+      "healthBonus" : 0.40,
+      "energyBonus" : 0.0,
+	  "maxFallSpeed" : 10.0
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "racedirewolf.lua"
+  ]
+
+}

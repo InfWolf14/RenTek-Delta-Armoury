@@ -1,0 +1,25 @@
+{
+  "materialId" : 4441,
+  "materialName" : "starlighttechpanel",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "starlighttechpanel",
+  "description" : "Polymer panels used to hide and protect electronics.",
+  "shortdescription" : "Tech Panels",
+  "glitchDescription" : "Polymer panels used to hide and protect electronics.",
+  "floranDescription" : "Polymer panels used to hide and protect electronics.",
+  "novakidDescription" : "Polymer panels used to hide and protect electronics.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 50,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starlighttechpanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2300,
+    "radiantLight" : [50, 50, 50]
+  }
+}

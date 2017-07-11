@@ -1,0 +1,21 @@
+{
+  "objectName" : "shippart9",
+  "rarity" : "Common",
+  "description" : "A set piece designed to be used as a object tile.",
+  "shortdescription" : "Starlight shippart9",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "human",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shippart9.png:default",
+	  
+      "imagePosition" : [0, 0],
+	  
+	  "spaceScan" : 0.1,
+	  "collision" : "solid"
+    }
+  ]
+}

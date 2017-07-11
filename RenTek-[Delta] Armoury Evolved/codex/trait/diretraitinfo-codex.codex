@@ -1,0 +1,115 @@
+{
+  "id" : "diretraitinfo",
+  "title" : "Elemental Trait Info",
+  "species" : "direwolf",
+  "description" : "A Short Guide to Elemental Affinity Traits of the Dire.",
+  "icon" : "diretraitinfo.png",
+  "contentPages" : [
+
+"a Short Guide to Elemental Affinity Traits of the Dire:
+	
+Due to the Early Experimentation that the Wolven Dire Subjects were exposed to, it is possible for one to remotely tap into and draw forth an Elemental Affinity, this Affinity is only possible by the Genetic Splicing used to create these... Clones.",
+	
+"while they are indeed Clones made from the Spliced DNA of a few Original and rather unwilling Donors, the 3rd generation of these created Dire are only half Clones due having formed their own Genetic DNA Strands.",
+
+"this Elemental Ability, these Dire have developed grant them added physical traits and resistances, how ever siding one Primary Element over another gives that Dire a vulnerbility towards other elements. ",
+	
+"on this note they seem to possess a Non-Elemental trait which raises their physical condition with minimal vulnerbility or resistance towards Elements.",
+
+"how ever in my Observations i have noticed that a Single Dire can only be attuned to one element at a time and Attempting to Attune them selves to a New Element will rewrite their Previous Elemental Affinity.",
+	
+"Affinity Mod: Electric
+Special Traits:
+Max Energy Increased by 20
+Immune to Electric; Burn Damage",
+	
+"Affinity Mod: Electric
+Resistance Effects:
+Fire Resistance: -10%
+Ice Resistance: +10%
+Electric Resistance: +30%
+Shadow Resistance: -30%
+Radioactive Resistance: +10%
+Cosmic Resistance: +10%",
+	
+"Affinity Mod: Fire
+Special Traits:
+Attack Boosted by 20%
+Immune to Fire; Burn Damage",
+
+"Affinity Mod: Fire
+Resistance Effects:
+Fire Resistance: +30%
+Ice Resistance: +10%
+Electric Resistance: +10%
+Poison Resistance: -20%
+Shadow Resistance: -30%
+Radioactive Resistance: +10%
+Cosmic Resistance: -10%",
+
+"Affinity Mod: Ice
+Special Traits:
+Immune to Ice Slip, Snow/Slush Slowness
+Immune to Ice; Burn Damage",
+
+"Affinity Mod: Ice
+Resistance Effects:
+Physical Resistance: +10%
+Fire Resistance: -30%
+Ice Resistance: +30%
+Electric Resistance: +10%
+Radioactive Resistance: -10%
+Cosmic Resistance: +10%",
+	
+"Affinity Mod: Physical
+Special Traits:
+^green;Max Energy Increased by 20
+Max Health Increased by 20
+Attack Boosted by 5%
+Shield Regen Boosted by 15%",
+
+"Affinity Mod: Physical
+Resistance Effects:
+Physical Resistance: +20%
+Fire Resistance: -10%
+Ice Resistance: +10%
+Electric Resistance: -10%
+Poison Resistance: +10%
+Shadow Resistance: -10%
+Radioactive Resistance: +10%
+Cosmic Resistance: -10%",
+	
+"Affinity Mod: Poison
+Special Traits:
+Immune to Poison; Burn Damage
+Immune to BeeSting Damage over Time",
+
+"Affinity Mod: Poison
+Resistance Effects:
+Physical Resistance: +10%
+Fire Resistance: -30%
+Ice Resistance: -10%
+Poison Resistance: +30%
+Shadow Resistance: +10%
+Radioactive Resistance: +10%",
+	
+"Affinity Mod: Shadow
+Special Traits:
+Immune to Erchius; Burn Damage",
+
+"Affinity Mod: Shadow
+Resistance Effects:
+Physical Resistance: +10%
+Fire Resistance: -10%
+Ice Resistance: -10%
+Electric Resistance: -10%
+Poison Resistance: +10%
+Shadow Resistance: +30%
+Radioactive Resistance: +10%
+Cosmic Resistance: -20%"
+  ],
+    "itemConfig" : {
+    "rarity" : "Essential",
+    "price" : 25
+  }
+}

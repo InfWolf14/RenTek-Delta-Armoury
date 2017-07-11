@@ -1,0 +1,15 @@
+{
+  "name" : "racedirewolf-physical",
+  "effectConfig" : {
+      "powerModifier" : 0.10,
+      "healthBonus" : 0.20,
+      "energyBonus" : 0.20,
+	   "gritBonus" : 0.15
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "racedirewolf-physical.lua"
+  ]
+
+}

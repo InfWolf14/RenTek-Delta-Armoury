@@ -1,0 +1,77 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "poisonsmoke" ]
+            }
+          },
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "poisonsmoke",
+            "properties" : {
+              "immediateSound" : "/sfx/projectiles/goocluster_pop.ogg",
+              "particleEmittersOff" : [ "poisonsmoke" ]
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [-0.125, 0], [0, 0] ]
+            }
+          },
+          "poisonsmoke" : {
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "poisonsmoke" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "gun" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "poisontraiticon.png",
+          "offset" : [0.0, 0.0]
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "poisonsmoke" : {
+      "emissionRate" : 500.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+
+      "particles" : [
+        {
+          // Red, drifting
+          "particle" : {
+            "type" : "animated",
+			"animation" : "/animations/poisonsmoke/poisonsmoke.animation",
+            "position" : [1.0, 0],
+            "light" : [50, 50, 50],
+            "fade" : 0.9,
+            "layer" : "middle",
+            "approach" : [0.5, 0.5],
+                "timeToLive" : 1.5,
+                "variance" : {
+                  "position" : [1.5, 1.5],
+                  "initialVelocity" : [1, 1],
+                  "timeToLive" : 0.5,
+                  "rotation" : 180
+                }
+          }
+        }
+      ]
+    }
+  }
+}

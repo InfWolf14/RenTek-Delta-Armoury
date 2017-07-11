@@ -1,0 +1,20 @@
+{
+  "objectName" : "aea",
+  "rarity" : "Common",
+  "description" : "A set piece designed to be used as a object tile.",
+  "shortdescription" : "Starlight aemainback",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "human",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ae01.png",
+      "renderLayer" : "BackgroundOverlay",
+      "metaBoundBox" : [-10, -10, 70, 70],
+
+      "anchors" : [  ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "objectName" : "diretrait console",
+  "colonyTags" : [ "direwolf","traitconsole", "rentek", "rtcrafting" ], 
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/rttraitui.config",
+    "filter" : [ "traitconsole", "direwolf", "rentek" ]
+  },
+  "printable" : false,
+  "description" : "^green;[RenTek] ^white;A Specialised Temporary Augmentation Station. \n^red;Destroyed when broken.",
+  "shortdescription" : "^#00FFC8;Traits Console",
+  "race" : "direwolf",
+  "category" : "crafting",
+  "price" : 0,
+
+ "apexDescription" : "-^red;Mechanic Testing consol^return;-",
+  "avianDescription" : "-^red;Mechanic Testing consol^return;-",
+  "floranDescription" : "-^red;Mechanic Testing consol^return;-",
+  "glitchDescription" : "-^red;Mechanic Testing consol^return;-",
+  "humanDescription" : "-^red;Mechanic Testing consol^return;-",
+  "hylotlDescription" : "-^red;Mechanic Testing consol^return;-",
+  "novakidDescription" : "-^red;Mechanic Testing consol^return;-",
+
+
+	"lightColor" : [39, 62, 64],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "diretraitconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "diretraitconsolelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "diretraitconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "diretraitconsolelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "health" : 10,
+  "rooting" : true,
+
+  "smashOnBreak" : true
+}

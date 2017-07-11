@@ -1,0 +1,10 @@
+{
+  "name" : "racedirewolf-shadow",
+  "effectConfig" : {
+  },
+
+  "scripts" : [
+    "racedirewolf-shadow.lua"
+  ]
+
+}

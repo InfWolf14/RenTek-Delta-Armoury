@@ -1,0 +1,20 @@
+{
+  "itemName" : "direshadow trait",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "SpeciesModifier",
+  "description" : "Use this to Change your Elemental Affinity to Shadow.",
+  "shortdescription" : "Shadow Affinity Modifier",
+  "twoHanded" : true,
+  "itemTags" : [ "traitconsole", "direwolf", "diretrait" ],
+
+  "inventoryIcon" : "shadowtraiticon.png",
+  "animation" : "shadowtrait.animation",
+  "animationCustom" : {},
+  "scripts" : ["shadowtrait.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "racedirewolf-fire",
+  "effectConfig" : {"powerModifier" : 0.0},
+
+  "scripts" : [
+    "racedirewolf-fire.lua"
+  ]
+
+}

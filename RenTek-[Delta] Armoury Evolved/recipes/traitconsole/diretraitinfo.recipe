@@ -1,0 +1,6 @@
+{
+  "input" : [
+  ],
+  "output" : { "item" : "diretraitinfo-codex", "count" : 1 },
+  "groups" : [ "traitconsole", "rentek" ]
+}

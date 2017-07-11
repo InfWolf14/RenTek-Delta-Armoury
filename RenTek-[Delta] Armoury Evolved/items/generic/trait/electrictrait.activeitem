@@ -1,0 +1,20 @@
+{
+  "itemName" : "direelectric trait",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "SpeciesModifier",
+  "description" : "Use this to Change your Elemental Affinity to Electric.",
+  "shortdescription" : "Electric Affinity Modifier",
+  "twoHanded" : true,
+  "itemTags" : [ "traitconsole", "direwolf", "diretrait" ],
+  
+  "inventoryIcon" : "electrictraiticon.png",
+  "animation" : "electrictrait.animation",
+  "animationCustom" : {},
+  "scripts" : ["electrictrait.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0]
+}

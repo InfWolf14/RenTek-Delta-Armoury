@@ -1,0 +1,20 @@
+{
+  "itemName" : "direphysical trait",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "SpeciesModifier",
+  "description" : "Use this to remove your Elemental Affinity but gain a physical buff.",
+  "shortdescription" : "Physical Affinity Modifier",
+  "twoHanded" : true,
+  "itemTags" : [ "traitconsole", "direwolf", "diretrait" ],
+  
+  "inventoryIcon" : "physicaltraiticon.png",
+  "animation" : "physicaltrait.animation",
+  "animationCustom" : {},
+  "scripts" : ["physicaltrait.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0]
+}

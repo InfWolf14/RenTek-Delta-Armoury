@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "name" : "starlightordinance",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "starlightordinance" ],
+    "gravity" : 80,
+    "maxRadius" : 500,
+    "maxParts" : 1000,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "starlightordinance",
+      "rules" : [],
+      "def" : [ "tmx", "starlightordinance.json" ]
+    }
+  ]
+}

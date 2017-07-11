@@ -1,0 +1,57 @@
+{
+  "objectName" : "direwolfteleporterTier0",
+  "colonyTags" : ["direwolf"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "shortdescription" : "Teleporter?",
+  "race" : "human",
+
+  "apexDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "avianDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "floranDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "glitchDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "humanDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "hylotlDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "novakidDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "direwolfDescription" : "-^red;its a Fill in Model. Original to be Fixed^return;-",
+  "rentekDescription" : "-^red;Im working on it... Spacial Transitions are not my thing...^return;-",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "direwolfteleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "direwolfteleporterTier0.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+
+      "sitPosition" : [-8, 8]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 1.5
+}

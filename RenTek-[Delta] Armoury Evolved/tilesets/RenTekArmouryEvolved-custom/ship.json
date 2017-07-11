@@ -1,0 +1,104 @@
+{ "columns":0,
+ "margin":0,
+ "name":"ship",
+ "properties": {
+    },
+ "spacing":0,
+ "tilecount":8,
+ "tileheight":592,
+ "tileproperties":
+   {
+    "0":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart9",
+      "object" : "shippart9",
+      "tilesetDirection" : "right"
+        },
+     "1":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart10",
+      "object" : "shippart10",
+      "tilesetDirection" : "right"
+        },
+     "2":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart11",
+      "object" : "shippart11",
+      "tilesetDirection" : "right"
+        },
+     "3":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart12",
+      "object" : "shippart12",
+      "tilesetDirection" : "right"
+        },
+     "4":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart13",
+      "object" : "shippart13",
+      "tilesetDirection" : "right"
+        },
+     "5":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart14",
+      "object" : "shippart14",
+      "tilesetDirection" : "right"
+        },
+     "6":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart15",
+      "object" : "shippart15",
+      "tilesetDirection" : "right"
+        },
+     "7":
+        {
+         "//description":"main deck ship part",
+         "//shortdescription":"shippart16",
+      "object" : "shippart16",
+      "tilesetDirection" : "right"
+        }
+   },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart9.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart10.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart11.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart12.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart13.png"
+        },
+     "5":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart14.png"
+        },
+     "6":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart15.png"
+        },
+     "7":
+        {
+         "image":"..\/..\/tiles\/ship\/shippart16.png"
+        }
+    },
+ "tilewidth":296
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "aemainexteria01",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "description" : "A set piece not designed to be used as an object.",
+  "shortdescription" : "Starlight mainexteria Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "human",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "aemainexteria01.png",
+      "imagePosition" : [0, -1],
+      "renderLayer" : "BackgroundOverlay",
+      "metaBoundBox" : [-10, -10, 70, 70],
+
+      "anchors" : [  ]
+    }
+  ]
+}
