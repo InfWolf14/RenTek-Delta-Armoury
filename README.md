@@ -12,6 +12,13 @@ Primary Prerequisites:
 Optional Prerequisites: Frakin-Universe/Race's
 Recommended: Frakin-Universe/Race's.
 
+//Contributers::
+-None At This Time-
+
 //Notes:: Permissions
-Private Builds and Test version's take priority over Public Builds regarless if Alpha testing or not, these Private Builds/Test Versions are open to Permitted Contributers, contributers are allowed to Add, Edit and test files, all files are to be uploaded to a Private Side Branch to be checked and tested before merged into the Public Main Branch.
+Contributers are allowed to Add, Edit and test files, all files are to be uploaded to a Side Branch to be checked and tested before merged into the Main Branch, Contributers are those granted permission by me after submitting a request in a Private Message on the community.playstarbound.com forums.
+
+//Contributer Prerequisites::
+Some form of JSON or LUA Understanding is recommended, how ever those with no understanding of these forms of code might be enlisted as a tester to assit with flushing out bugs and errors.
+
 ~Dilrax.
