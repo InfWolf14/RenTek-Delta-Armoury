@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "trait datachit", "count" : 1 }
+  ],
+  "output" : { "item" : "direice trait", "count" : 1 },
+  "groups" : [ "traitconsole", "direwolf", "rentek" ]
+}
