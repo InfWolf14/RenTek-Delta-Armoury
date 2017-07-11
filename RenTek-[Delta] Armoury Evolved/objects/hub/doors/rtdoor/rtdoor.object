@@ -1,0 +1,55 @@
+{
+  "objectName" : "rtdoor",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "RenTek Door",
+  "race" : "hylotl",
+
+  "apexDescription" : "I have not seen this kind of Door before.",
+  "avianDescription" : "It looks human made.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Curious. What is it made from?.",
+  "humanDescription" : "It looks like its out of some old movie.",
+  "hylotlDescription" : "This door looks basic in design.",
+  "novakidDescription" : "Its just a door.",
+
+  "inventoryIcon" : "rtdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rtdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "rtdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
