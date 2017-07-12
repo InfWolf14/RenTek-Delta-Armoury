@@ -1,0 +1,22 @@
+{
+  "itemName" : "sharkbaitchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "^orange;Shark Bait Set. ^white;Scales, Gills a fin and Magnetic Claw Clamps, Just Perfect for Dragging things underwater.",
+  "shortdescription" : "Charge Driver",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}

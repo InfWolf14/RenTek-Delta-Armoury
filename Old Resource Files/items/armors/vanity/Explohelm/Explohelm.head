@@ -1,0 +1,45 @@
+{
+  "itemName" : "Explohelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "^green;[RenTek] ^white; a full face Exploration helmet with integrated holographic HUD.",
+  "shortdescription" : "Exploration Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+	{
+      "stat" : "breathProtection",
+      "amount" : 1
+    },
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.50
+    },
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 10
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 10
+    },
+	{
+	  "stat" : "knockbackThreshold",
+	  "amount" : 0.15
+	},
+	{
+      "stat" : "energyRegen",
+      "amount" : 1.25
+    }
+  ]
+}

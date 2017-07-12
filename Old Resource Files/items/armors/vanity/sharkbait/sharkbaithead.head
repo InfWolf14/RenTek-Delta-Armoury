@@ -1,0 +1,21 @@
+{
+  "itemName" : "sharkbaithead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "^orange;Shark Bait Set. ^white;this Hammerhead shaped helmet will not raise your ability to find things underwater.",
+  "shortdescription" : "Power Driver.",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+	{
+	  "stat" : "breathprotection",
+	  "amount" : 1
+	}
+  ]
+}

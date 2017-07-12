@@ -1,0 +1,24 @@
+{
+  "itemName" : "rtdatscroll-identified",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Secrets, Secrets, In the Scroll, Grant the Rarest of them all.",
+  "shortdescription" : "Identified Data Packet",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "rtdatscroll-identified.png",
+  "animation" : "rtdatscroll-identified.animation",
+  "animationCustom" : {},
+  "scripts" : ["rtdatscroll-identified.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "rentekdatscroll",
+    "level" : 1
+  }
+}
