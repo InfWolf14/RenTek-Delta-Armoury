@@ -1,0 +1,38 @@
+{
+  "objectName" : "rt-armorywall",
+  "colonyTags" : [ "Armoryprinter", "rentek", "rtcrafting" ], 
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Armoryprinterwall.config",
+    "filter" : [ "Armoryprinter", "rentek" ]
+  },
+  "printable" : false,
+  "description" : "^green;[RenTek] ^white;A Specialised Equipment Synthesizer, From the RenTek Corporation.",
+  "shortdescription" : "^#00FFC8;RenTek Armoury [Wall,Orange]",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 0,
+
+  "apexDescription" : "it appears to be a sort of Digitech 3D Printer of some kind, but i dont Recognise the Tech.",
+  "avianDescription" : "Its Some kind of Advanced Technological Space workbench.",
+  "floranDescription" : "thing makessss thingsssss ssssshoot ssssstabby thingssss",
+  "glitchDescription" : "Intrigue. It appears to reflect a Collection of Technology from all over the Galaxy.",
+  "humanDescription" : "Its a Equipment Synthesizer Designed by RenTek, I hear they Specialise in Exploration Equipment.",
+  "hylotlDescription" : "Something about this makes me feel uneasy, is it the Technology used?",
+
+  "inventoryIcon" : "rt-armorywallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rt-armorywall.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 23,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

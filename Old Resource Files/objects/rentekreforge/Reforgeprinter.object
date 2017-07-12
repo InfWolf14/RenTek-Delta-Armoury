@@ -1,0 +1,35 @@
+{
+	"objectName": "Reforgeprinter",
+	"colonyTags": ["Reforgeprinter", "rentek", "rtcrafting"],
+	"rarity": "Common",
+	"interactAction": "OpenCraftingInterface",
+	"interactData": {
+		"config": "/interface/windowconfig/Reforgeprinter.config",
+		"filter": ["Reforgeprinter", "rentekreforge"]
+	},
+	"printable": false,
+	"description": "^green;[RenTek] ^white;A Special Terminal Purposely Designed to Update Outdated RenTek Technology",
+	"shortdescription": "^#00FFC8;RenTek Reforge Terminal",
+	"race": "generic",
+	"category": "crafting",
+	"price": 0,
+
+	"apexDescription": "It appears to modify and Update Related Tech as Blueprints are updated.",
+	"avianDescription": "Its Some kind of Advanced Technological Magic box.",
+	"floranDescription": "Floran Doessssnot undersssstand thissss machine.",
+	"glitchDescription": "Interest. Scanning a Compatible Item with this machine automatically updates it to the New Version.",
+	"humanDescription": "In with the Old Out with the New, nothing better then an Upgrade to Go!",
+	"hylotlDescription": "I don't think this work with common Tools...",
+
+	"inventoryIcon": "Reforgeprintericon.png",
+	"orientations": [{
+		"dualImage": "Reforgeprinter.png:<color>.<frame>",
+		"imagePosition": [-8, -8],
+		"frames": 40,
+		"animationCycle": 2.32,
+
+		"spaceScan": 0.1,
+		"anchors": ["background"]
+
+	}]
+}
