@@ -1,0 +1,10 @@
+{
+  "itemName" : "rtenergycore",
+  "rarity" : "Legendary",
+  "maxStack" : 100,
+  "critical" : true,
+  "inventoryIcon" : "rtenergycore.png",
+  "description" : "^green;[RenTek] a Recharging Crystalline Energy Core, Its used to Power Specific RenTek Equipment.",
+  "shortdescription" : "^#E300F7;RenTek Energy Core",
+  "radioMessagesOnPickup" : [ "dilraxtest2" ]
+}

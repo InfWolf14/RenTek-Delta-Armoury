@@ -1,0 +1,9 @@
+{
+  "itemName" : "rtenergycoregamma",
+  "rarity" : "Legendary",
+  "maxStack" : 100,
+  "critical" : true,
+  "inventoryIcon" : "rtenergycoregamma.png",
+  "description" : "^green;[RenTek] a Crystalline Energy Core Containing a Charged Energy Source, Used to Charge Specific RenTek Equipment.",
+  "shortdescription" : "^#E300F7;RenTek Gamma Core"
+}
