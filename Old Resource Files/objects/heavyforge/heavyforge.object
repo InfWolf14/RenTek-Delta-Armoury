@@ -1,0 +1,40 @@
+{
+  "objectName" : "rt-heavyforge",
+  "colonyTags" : [ "Armoryprinter", "rentek", "rtcrafting" ], 
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Armoryevolvedblue.config",
+    "filter" : [ "armoryevolvedprinter", "rentek" ]
+  },
+  "printable" : false,
+  "description" : "^green;[RenTek] ^white;A Heavy Duty Equipment Synthesizer, From the RenTek Corporation, Its Way more advanced then My Blueprint.",
+  "shortdescription" : "^#00FFC8;RenTek Heavy Forge",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 0,
+
+  "apexDescription" : "This Forge is Several Times more Advanced then the Blueprint I have, How is that Possible?.",
+  "avianDescription" : "Its a Bigger Advanced workbench by RenTek... I wonder if its any different.",
+  "floranDescription" : "thing makessss bigger better thingsssss to ssssshoot and ssssstab thingssss with",
+  "glitchDescription" : "Intrigue. Its Several Times More Advanced Then The Last One, What Kind Of Technology Empowers This Marvel?.",
+  "humanDescription" : "This Forge... of this scale Has To Have Super Weapons or something Epic or Rare... Just Look at it!",
+  "hylotlDescription" : "I had a Feeling Things would get worse... Can it make anything other then tools of destruction?",
+  "rentekDescription" : "Quit Eye-Balling My Heavy Forge Already, I know its Epic But still...",
+  
+  "inventoryIcon" : "heavyforgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "heavyforge.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 25,
+	  "allowFlip" : false,
+      "animationCycle" : 2.50,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

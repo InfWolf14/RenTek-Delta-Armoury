@@ -1,0 +1,40 @@
+{
+  "objectName" : "rt-heavydisplay",
+  "colonyTags" : [ "Armoryprinter", "rentek", "rtcrafting" ], 
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Armoryevolvedblue.config",
+    "filter" : [ "armoryevolvedprinter", "rentek" ]
+  },
+  "printable" : false,
+  "description" : "^green;[RenTek] ^white;An Advanced Equipment Display and Synthesizer, It Appears to work along side that Heavy Forge and allow remote system tweaking.",
+  "shortdescription" : "^#00FFC8;RenTek Evolved Display",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 0,
+
+  "apexDescription" : "This Display is Directly connected to the RenTek System Though the Heavy Forge, Its Just as Advanced looking.",
+  "avianDescription" : "Its a bigger screen for that bigger RenTek forge.",
+  "floranDescription" : "thing ssshowsss thingssss of other thingsss to play with",
+  "glitchDescription" : "Impressed. This Display Is Used To Remotely Modify All RenTek Equipment Systems On A Galactic Scale At Once.",
+  "humanDescription" : "Im Liking What i See! ... Big Guns on Display and the Data to boot.",
+  "hylotlDescription" : "... well im not sure what to actually say...",
+  "rentekDescription" : "The Heavy Forge Might Make well... everything but This Display is for those Special Weapons of Mine.",
+
+  "inventoryIcon" : "heavydisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "heavydisplay.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 25,
+	  "allowFlip" : false,
+      "animationCycle" : 2.50,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

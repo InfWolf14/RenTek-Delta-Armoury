@@ -1,0 +1,52 @@
+{
+  "objectName" : "direwolfteleporterTier0-[TBF]",
+  "colonyTags" : ["direwolf"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "an Airlock? a Teleporter? both?, yes...",
+  "shortdescription" : "Teleporter",
+  "race" : "direwolf",
+
+  "apexDescription" : "its an Airlock for leaving this ship, dont they use teleporters?.",
+  "avianDescription" : "oooh a sealed door... this is new.",
+  "floranDescription" : "Ship door. Floran confusssed about how door work.",
+  "glitchDescription" : "Dissapointed. A Bulkhead Door... why do they have this instead of a teleporter?",
+  "humanDescription" : "Just like the Classic Ships! they went all out on the Retro huh.",
+  "hylotlDescription" : "a Teleporter would be faster but this will make due, walking is nice.",
+  "novakidDescription" : "Spin that wheel and Crank her open!",
+  "direwolfDescription" : "This Airlock works two ways, first a portal chamber, second a door to the outside.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "teleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "direwolfteleporterTier0.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+
+      "sitPosition" : [-8, 8]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}

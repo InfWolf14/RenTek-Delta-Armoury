@@ -1,0 +1,38 @@
+{
+  "objectName" : "RAgalleryblue",
+  "colonyTags" : [ "rtgallery", "rentek", "rtcrafting" ], 
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/RTLoreGalleryblue.config",
+    "filter" : [ "rtgallery", "rtcrafting", "rtgun", "rttool", "rtarmor", "rtitem", "rtblock", "rtsystem"  ]
+  },
+  "printable" : false,
+  "description" : "^green;[RenTek] ^white;This Gallery offers Background Lore about Featured Items",
+  "shortdescription" : "^#00FFC8;RenTek Lore Gallery",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 0,
+
+  "apexDescription" : "...",
+  "avianDescription" : "...",
+  "floranDescription" : "...",
+  "glitchDescription" : "...",
+  "humanDescription" : "...",
+  "hylotlDescription" : "...",
+
+  "inventoryIcon" : "RAgalleryicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "RAgalleryblue.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
