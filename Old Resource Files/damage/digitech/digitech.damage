@@ -1,0 +1,173 @@
+{
+  "kind" : "digitech",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/ice_barrier_break9.ogg" ],
+        "particles" : [
+          [
+			
+            {
+              "type" : "animated",
+              "animation" : "/damage/digitech/digitechshatter.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },	
+			
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }				
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/ice_barrier_break9.ogg" ],
+        "particles" : [
+          [
+			
+            {
+              "type" : "animated",
+              "animation" : "/damage/digitech/digitechshatter.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },	
+			
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }				
+          ]
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/ice_barrier_break9.ogg" ],
+        "particles" : [
+          [
+			
+            {
+              "type" : "animated",
+              "animation" : "/damage/digitech/digitechshatter.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },	
+			
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }				
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/ice_barrier_break9.ogg" ],
+        "particles" : [
+          [
+			
+            {
+              "type" : "animated",
+              "animation" : "/damage/digitech/digitechshatter.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },	
+			
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }				
+          ]
+		]
+      }
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "name": "dilraxnpc",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/npc.lua",
+    "/scripts/behavior.lua",
+    "/scripts/actions/math.lua",
+    "/scripts/actions/world.lua",
+    "/scripts/actions/dialog.lua"
+  ],
+  "parameters": {
+    "play": true,
+    "hostileDamageTeam": {
+      "type": "enemy",
+      "team": 1
+    }
+  },
+  "root": {
+    "title": "Villager",
+    "type": "composite",
+    "name": "dynamic",
+    "parameters": {},
+    "children": [
+      {
+        "title": "Tenant Baseline Behavior",
+        "type": "module",
+        "name": "Tenant Baseline Behavior",
+        "parameters": {}
+      },
+      {
+        "title": "attackthief",
+        "type": "module",
+        "name": "attackthief",
+        "parameters": {}
+      },
+      {
+        "title": "selector",
+        "type": "composite",
+        "name": "selector",
+        "parameters": {},
+        "children": [
+          {
+            "title": "parallel",
+            "type": "composite",
+            "name": "parallel",
+            "parameters": {
+              "fail": 1,
+              "success": -1
+            },
+            "children": [
+              {
+                "title": "friendlyTargeting",
+                "type": "action",
+                "name": "friendlyTargeting",
+                "parameters": {
+                  "hostileDamageTeam": "<hostileDamageTeam>",
+                  "losTime": 8,
+                  "queryRange": 70,
+                  "trackingRange": 70,
+                  "attackOnSight": "attackOnSight"
+                },
+                "output": {
+                  "target": "target"
+                }
+              },
+              {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {
+                  "type": "sliding",
+                  "state": "off",
+                  "fromEntity": "attackTarget",
+                  "toEntity": "fleeTarget"
+                },
+                "children": [
+                  {
+                    "title": "setFlag",
+                    "type": "action",
+                    "name": "setFlag",
+                    "parameters": {
+                      "name": "inCombat"
+                    }
+                  },
+                  {
+                    "title": "succeeder",
+                    "type": "decorator",
+                    "name": "succeeder",
+                    "parameters": {},
+                    "child": {
+                      "title": "selector",
+                      "type": "composite",
+                      "name": "selector",
+                      "parameters": {},
+                      "children": [
+                        {
+                          "title": "chance",
+                          "type": "action",
+                          "name": "chance",
+                          "parameters": {
+                            "chance": 0.75
+                          }
+                        },
+                        {
+                          "title": "sequence",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {
+                            "type": "sliding",
+                            "state": "off",
+                            "fromEntity": "attackTarget",
+                            "toEntity": "fleeTarget"
+                          },
+                          "children": [
+                            {
+                              "title": "entityInTypes",
+                              "type": "action",
+                              "name": "entityInTypes",
+                              "parameters": {
+                                "entity": "target",
+                                "types": [
+                                  "player"
+                                ]
+                              }
+                            },
+                            {
+                              "title": "selector",
+                              "type": "composite",
+                              "name": "selector",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "listContains",
+                                  "type": "action",
+                                  "name": "listContains",
+                                  "parameters": {
+                                    "list": "seenplayers",
+                                    "entity": "target"
+                                  }
+                                },
+                                {
+                                  "title": "failer",
+                                  "type": "decorator",
+                                  "name": "failer",
+                                  "parameters": {},
+                                  "child": {
+                                    "title": "listPush",
+                                    "type": "action",
+                                    "name": "listPush",
+                                    "parameters": {
+                                      "list": "seenplayers",
+                                      "entity": "target"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "title": "sayToEntity",
+                              "type": "action",
+                              "name": "sayToEntity",
+                              "parameters": {
+                                "dialogType": "dialog.reattack",
+                                "entity": "target",
+                                "tags": {}
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "sayToEntity",
+                          "type": "action",
+                          "name": "sayToEntity",
+                          "parameters": {
+                            "dialogType": "dialog.attack",
+                            "entity": "target",
+                            "tags": {}
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "NPC Combat",
+                    "type": "module",
+                    "name": "npccombat",
+                    "parameters": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "failer",
+            "type": "decorator",
+            "name": "failer",
+            "parameters": {},
+            "child": {
+              "title": "selector",
+              "type": "composite",
+              "name": "selector",
+              "parameters": {},
+              "children": [
+                {
+                  "title": "inverter",
+                  "type": "decorator",
+                  "name": "inverter",
+                  "parameters": {},
+                  "child": {
+                    "title": "hasFlag",
+                    "type": "action",
+                    "name": "hasFlag",
+                    "parameters": {
+                      "name": "inCombat"
+                    }
+                  }
+                },
+                {
+                  "title": "sequence",
+                  "type": "composite",
+                  "name": "sequence",
+                  "parameters": {
+                    "type": "sliding",
+                    "state": "off",
+                    "fromEntity": "attackTarget",
+                    "toEntity": "fleeTarget"
+                  },
+                  "children": [
+                    {
+                      "title": "unsetFlag",
+                      "type": "action",
+                      "name": "unsetFlag",
+                      "parameters": {
+                        "name": "inCombat"
+                      }
+                    },
+                    {
+                      "title": "selector",
+                      "type": "composite",
+                      "name": "selector",
+                      "parameters": {},
+                      "children": [
+                        {
+                          "title": "chance",
+                          "type": "action",
+                          "name": "chance",
+                          "parameters": {
+                            "chance": 0.75
+                          }
+                        },
+                        {
+                          "title": "sequence",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {
+                            "type": "sliding",
+                            "state": "off",
+                            "fromEntity": "attackTarget",
+                            "toEntity": "fleeTarget"
+                          },
+                          "children": [
+                            {
+                              "title": "entityExists",
+                              "type": "action",
+                              "name": "entityExists",
+                              "parameters": {
+                                "entity": "target"
+                              }
+                            },
+                            {
+                              "title": "sayToEntity",
+                              "type": "action",
+                              "name": "sayToEntity",
+                              "parameters": {
+                                "dialogType": "dialog.lostTarget",
+                                "entity": "target",
+                                "tags": {}
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "sayToEntity",
+                          "type": "action",
+                          "name": "sayToEntity",
+                          "parameters": {
+                            "dialogType": "dialog.killedTarget",
+                            "entity": "target",
+                            "tags": {}
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "module",
+        "name": "converse",
+        "parameters": {}
+      },
+      {
+        "title": "",
+        "type": "module",
+        "name": "NPC Idle",
+        "parameters": {
+          "play": "<play>"
+        }
+      }
+    ]
+  }
+}

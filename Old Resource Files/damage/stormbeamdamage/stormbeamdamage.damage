@@ -1,0 +1,121 @@
+{
+  "kind" : "stormbeamdamage",
+  "damageType" : "ignoresdef",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+	    "lightColor" : [155, 212, 255],
+        "sounds" : [ "/sfx/gun/lightningcoil2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/damage/stormbeamdamage/stormbeamspark.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+			  "inheritDamageFactor" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+	  
+      "kill" : {
+        "sounds" : [ "/sfx/gun/shockblast.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/damage/stormbeamdamage/stormbeamdamage.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }						
+          ]
+        ]
+      }
+    },
+	
+    "robotic" : {
+      "hit" : {
+	    "lightColor" : [155, 212, 255],
+        "sounds" : [ "/sfx/gun/lightningcoil2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/damage/stormbeamdamage/stormbeamspark.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+			  "inheritDamageFactor" : 1.0,
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+			
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }
+          ]
+        ]
+      },
+	  
+      "kill" : {
+        "sounds" : [ "/sfx/gun/shockblast.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/damage/stormbeamdamage/stormbeamdamage.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }						
+          ]
+        ]
+      }
+    }
+  }
+}
