@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [13, 14],
+    "dimensions" : [3, 1],
+
+    "names" : [
+      [ "ztrshield", "ztrshields.1", "ztrshields.2" ]
+    ]
+  }
+}

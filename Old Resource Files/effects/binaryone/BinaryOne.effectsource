@@ -1,0 +1,24 @@
+{
+  "kind" : "BinaryZero",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.00001,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "BinaryOne" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

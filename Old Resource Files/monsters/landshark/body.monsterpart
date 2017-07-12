@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "landshark",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

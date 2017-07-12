@@ -1,0 +1,9 @@
+{
+  "name" : "aeztr",
+  "category" : "aeztr",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "aeztr.png"
+  }
+}

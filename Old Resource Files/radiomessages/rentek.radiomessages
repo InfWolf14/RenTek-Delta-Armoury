@@ -1,0 +1,17 @@
+ {
+  "dilraxtest" : {
+    "type" : "quest",
+	"senderName" : "Dilrax",
+    "portraitImage" : "/interface/chatbubbles/dilraxtalk.png:<frame>",
+	"text" : "We Interupt your Daily Broad Cast for This really Minor Announcement... its uhh well... really small... i mean there's some big things coming to the mod but we barely just got it working again, alot of things to still fix.",
+	"unique" : false
+  },
+  
+  "dilraxtest2" : {
+    "type" : "quest",
+	"senderName" : "Dilrax",
+    "portraitImage" : "/interface/chatbubbles/dilraxtalk.png:<frame>",
+	"text" : "We Interupt your Daily Broad Cast for This really Minor Announcement... its uhh well... really small... i mean there's some big things coming to the mod but we barely just got it working again, alot of things to still fix.",
+	"unique" : false
+  }
+  }

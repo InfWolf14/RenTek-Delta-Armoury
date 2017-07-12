@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [123, 61],
+    "dimensions" : [8, 5],
+
+    "names" : [
+      [ "null", "idle.1", "idle.2", "idle.3", "idle.4", "null", "hurt.1", "hurt.2" ],
+      [ "null", "walk.1", "walk.2", "walk.3", "null", "windup.1", "windup.2", "windup.3" ],
+      [ "null", "run.1", "run..2", "run.3", "run.4", "run.5", "run.6", "null" ],
+      [ "null", "bite.1", "bite.2", "bite.3", "bite.4", "bite.5", "run.6", "null" ],
+      [ "null", "bite.7", "bite.8", "bite.9", "bite.10", "bite.11", "bite.12", "null" ]
+    ]
+  }
+}
