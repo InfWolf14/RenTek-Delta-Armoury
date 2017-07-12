@@ -1,0 +1,19 @@
+{
+  "itemName" : "HealthRegenArtifact2",
+  "price" : 1600,
+  "inventoryIcon" : "HealthRegenArtifact2.png",
+  "rarity" : "Common",
+  "description" : "^green;RenTek^white;, a Charged Ruby, It Radiates With Energy ^cyan;(Equip in Backpack Slot)",
+  "shortdescription" : "A Charged Ruby",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+  "statusEffects" : [
+    {
+      "stat" : "rthealthregeneration",
+      "amount" : 1.06
+    }
+  ]
+}

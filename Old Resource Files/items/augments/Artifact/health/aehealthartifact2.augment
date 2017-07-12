@@ -1,0 +1,20 @@
+{
+  "itemName" : "aehealthartifact2",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aehealthartifact2.png",
+  "description" : "^green;RenTek^white;, a Ruby That Boost's Vitality by a Moderate amount, Health III Augment.",
+  "shortdescription" : "A Ruby",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "health2",
+    "displayName" : "A Ruby",
+    "displayIcon" : "/items/augments/Artifact/health/aehealthartifact2.png",
+    "effects" : [ "aehealthaugment2" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

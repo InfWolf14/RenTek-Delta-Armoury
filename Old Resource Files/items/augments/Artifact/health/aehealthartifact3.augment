@@ -1,0 +1,20 @@
+{
+  "itemName" : "aehealthartifact3",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aehealthartifact3.png",
+  "description" : "^green;RenTek^white;, a Flawless Ruby That Boost's Vitality a Great amount, Health I Augment.",
+  "shortdescription" : "Flawless Ruby",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "health3",
+    "displayName" : "Flawless Ruby",
+    "displayIcon" : "/items/augments/Artifact/health/aehealthartifact3.png",
+    "effects" : [ "aehealthaugment3" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

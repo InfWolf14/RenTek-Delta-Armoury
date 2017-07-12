@@ -1,0 +1,19 @@
+{
+  "itemName" : "aenergyartifact3",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aenergyartifact3.png",
+  "description" : "^green;RenTek^white;, a Exceptional Energy Core, Energy III Augment.",
+  "shortdescription" : "Exceptional Core",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "energy3",
+    "displayName" : "Exceptional Core",
+    "displayIcon" : "/items/augments/Artifact/energy/aeenergyartifact3.png",
+    "effects" : [ "aeenergyaugment3" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "aearmorartifact4",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "armorartifact4.png",
+  "description" : "^green;RenTek^white;, a Powerful Armor Boosting Artifact, Armour V Augment.",
+  "shortdescription" : "Fortress Relic",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "armor4",
+    "displayName" : "Fortress Relic",
+    "displayIcon" : "/items/augments/Artifact/armor/armorartifact4.png",
+    "effects" : [ "aearmoraugment4" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "aenergyartifact4",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aenergyartifact4.png",
+  "description" : "^green;RenTek^white;, a Greater Energy Core, Energy V Augment.",
+  "shortdescription" : "Greater Core",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "energy4",
+    "displayName" : "Greater Core",
+    "displayIcon" : "/items/augments/Artifact/energy/aeenergyartifact4.png",
+    "effects" : [ "aeenergyaugment4" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

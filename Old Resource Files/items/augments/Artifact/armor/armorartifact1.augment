@@ -1,0 +1,20 @@
+{
+  "itemName" : "aearmorartifact1",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "armorartifact1.png",
+  "description" : "^green;RenTek^white;, a Minor Armor Boosting Artifact, Armour II Augment.",
+  "shortdescription" : "Aegis Relic",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "armor2",
+    "displayName" : "Aegis Relic",
+    "displayIcon" : "/items/augments/Artifact/armor/armorartifact1.png",
+    "effects" : [ "aearmoraugment1" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

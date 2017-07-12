@@ -1,0 +1,20 @@
+{
+  "itemName" : "aeuniqueartifact1",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aeuniqueartifact1.png",
+  "description" : "^green;RenTek^white;, a Strange Claw that Burns Attackers, Unique Augment.",
+  "shortdescription" : "Scorched Claw",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "unique1",
+    "displayName" : "Scorched Claw",
+    "displayIcon" : "/items/augments/Artifact/unique/aeuniqueartifact1.png",
+    "effects" : [ "aeuniqueartifact1" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

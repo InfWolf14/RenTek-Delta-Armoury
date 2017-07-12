@@ -1,0 +1,20 @@
+{
+  "itemName" : "aeuniqueartifact0",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aeuniqueartifact0.png",
+  "description" : "^green;RenTek^white;, a Strange Relic Which Attacks Attackers in Return, Unique Augment.",
+  "shortdescription" : "Relic of Thorns",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "unique0",
+    "displayName" : "Relic of Thorns",
+    "displayIcon" : "/items/augments/Artifact/unique/aeuniqueartifact0.png",
+    "effects" : [ "aeuniqueartifact0" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

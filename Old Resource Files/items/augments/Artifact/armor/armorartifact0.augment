@@ -1,0 +1,20 @@
+{
+  "itemName" : "aearmorartifact0",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "armorartifact0.png",
+  "description" : "^green;RenTek^white;, a Lesser Armour Boosting Artifact, Armour I Augment.",
+  "shortdescription" : "Armoured Relic",
+
+  "augment" : {
+    "type" : "chest",
+    "name" : "armor1",
+    "displayName" : "Armoured Relic",
+    "displayIcon" : "/items/augments/Artifact/armor/armorartifact0.png",
+    "effects" : [ "aearmoraugment0" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

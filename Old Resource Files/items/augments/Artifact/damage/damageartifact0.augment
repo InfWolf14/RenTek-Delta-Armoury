@@ -1,0 +1,19 @@
+{
+  "itemName" : "damageartifact0",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "damageartifact0.png",
+  "description" : "^green;RenTek^white;, an Artifact of Lesser Power, Damage I Augment.",
+  "shortdescription" : "Relic of Harming",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damage1",
+    "displayName" : "Relic of Harming",
+    "displayIcon" : "/items/augments/Artifact/damage/damageartifact0.png",
+    "effects" : [ "aedamageaugment0" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

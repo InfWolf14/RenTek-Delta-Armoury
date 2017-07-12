@@ -1,0 +1,19 @@
+{
+  "itemName" : "aenergyartifact0",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aenergyartifact0.png",
+  "description" : "^green;RenTek^white;, a Lesser Energy Core, Energy I Augment.",
+  "shortdescription" : "Lesser Core",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "energy0",
+    "displayName" : "Lesser Core",
+    "displayIcon" : "/items/augments/Artifact/energy/aeenergyartifact0.png",
+    "effects" : [ "aeenergyaugment0" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

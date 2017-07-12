@@ -1,0 +1,20 @@
+{
+  "itemName" : "aeuniqueartifact2",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aeuniqueartifact2.png",
+  "description" : "^green;RenTek^white;, Who Doesn't Like a little Personal Shielding?, Unique Augment.",
+  "shortdescription" : "Shield Core",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "unique3",
+    "displayName" : "Shield Core",
+    "displayIcon" : "/items/augments/Artifact/unique/aeuniqueartifact2.png",
+    "effects" : [ "aeuniqueartifact2" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

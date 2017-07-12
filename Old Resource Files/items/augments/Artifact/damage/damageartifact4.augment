@@ -1,0 +1,19 @@
+{
+  "itemName" : "damageartifact4",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "damageartifact4.png",
+  "description" : "^green;RenTek^white;, an Artifact of Greater Damage, Damage V Augment.",
+  "shortdescription" : "Relic of Devastation",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damage4",
+    "displayName" : "Relic of Devastation",
+    "displayIcon" : "/items/augments/Artifact/damage/damageartifact4.png",
+    "effects" : [ "aedamageaugment4" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

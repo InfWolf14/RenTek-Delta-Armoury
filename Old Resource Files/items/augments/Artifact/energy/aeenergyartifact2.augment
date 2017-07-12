@@ -1,0 +1,19 @@
+{
+  "itemName" : "aenergyartifact2",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aenergyartifact2.png",
+  "description" : "^green;RenTek^white;, a Moderate Energy Core, Energy II Augment.",
+  "shortdescription" : "Moderate Core",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "energy2",
+    "displayName" : "Moderate Core",
+    "displayIcon" : "/items/augments/Artifact/energy/aeenergyartifact2.png",
+    "effects" : [ "aeenergyaugment2" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

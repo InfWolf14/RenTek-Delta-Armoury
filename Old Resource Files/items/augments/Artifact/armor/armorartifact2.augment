@@ -1,0 +1,19 @@
+{
+  "itemName" : "aearmorartifact2",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "armorartifact2.png",
+  "description" : "^green;RenTek^white;, a Good Armor Boosting Artifact, Armour III Augment.",
+  "shortdescription" : "Warding Relic",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "armor3",
+    "displayName" : "Warding Relic",
+    "displayIcon" : "/items/augments/Artifact/armor/armorartifact2.png",
+    "effects" : [ "aearmoraugment2" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

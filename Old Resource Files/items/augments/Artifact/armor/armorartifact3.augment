@@ -1,0 +1,19 @@
+{
+  "itemName" : "aearmorartifact3",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "armorartifact3.png",
+  "description" : "^green;RenTek^white;, a Exceptional Armor Boosting Artifact, Armour IV Augment.",
+  "shortdescription" : "Shielding Relic",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "armor3",
+    "displayName" : "Shielding Relic",
+    "displayIcon" : "/items/augments/Artifact/armor/armorartifact3.png",
+    "effects" : [ "aearmoraugment3" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

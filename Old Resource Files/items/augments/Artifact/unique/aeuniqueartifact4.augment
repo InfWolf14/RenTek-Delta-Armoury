@@ -1,0 +1,19 @@
+{
+  "itemName" : "UniqueArtifact4",
+  "price" : 100,
+  "inventoryIcon" : "UniqueArtifact4.png",
+  "rarity" : "Common",
+  "description" : "^green;RenTek^white;, a Lesser Armor Boosting Artifact (Equip in Backpack Slot)",
+  "shortdescription" : "Armoured Relic",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 2
+    }
+  ]
+}

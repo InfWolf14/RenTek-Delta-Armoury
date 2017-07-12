@@ -1,0 +1,20 @@
+{
+  "itemName" : "aehealthartifact0",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aehealthartifact0.png",
+  "description" : "^green;RenTek^white;, a Chipped Ruby, it slightly Boost's Vitality, Health I Augment.",
+  "shortdescription" : "Chipped Ruby",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "health0",
+    "displayName" : "Chipped Ruby",
+    "displayIcon" : "/items/augments/Artifact/health/aehealthartifact0.png",
+    "effects" : [ "aehealthaugment0" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

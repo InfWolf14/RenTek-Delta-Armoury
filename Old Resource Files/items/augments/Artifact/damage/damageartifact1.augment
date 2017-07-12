@@ -1,0 +1,20 @@
+{
+  "itemName" : "damageartifact1",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "damageartifact1.png",
+  "description" : "^green;RenTek^white;, an Artifact of Minor Power, Damage II Augment.",
+  "shortdescription" : "Relic of Ravage",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damage2",
+    "displayName" : "Relic of Ravage",
+    "displayIcon" : "/items/augments/Artifact/damage/damageartifact1.png",
+    "effects" : [ "aedamageaugment1" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

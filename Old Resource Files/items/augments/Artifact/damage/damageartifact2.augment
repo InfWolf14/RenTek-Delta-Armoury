@@ -1,0 +1,20 @@
+{
+  "itemName" : "damageartifact2",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "damageartifact2.png",
+  "description" : "^green;RenTek^white;, an Artifact of Moderate Power, Damage III Augment.",
+  "shortdescription" : "Relic of Damage",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damage3",
+    "displayName" : "Relic of Damage",
+    "displayIcon" : "/items/augments/Artifact/damage/damageartifact2.png",
+    "effects" : [ "aedamageaugment2" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

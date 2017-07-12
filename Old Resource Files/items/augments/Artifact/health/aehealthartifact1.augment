@@ -1,0 +1,20 @@
+{
+  "itemName" : "aehealthartifact1",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aehealthartifact1.png",
+  "description" : "^green;RenTek^white;, a Flawed Ruby Which Boost's Vitality a little, Health II Augment.",
+  "shortdescription" : "Flawed Ruby",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "health1",
+    "displayName" : "Flawed Ruby",
+    "displayIcon" : "/items/augments/Artifact/health/aehealthartifact1.png",
+    "effects" : [ "aehealthaugment1" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "HealthRegenArtifact0",
+  "price" : 1200,
+  "inventoryIcon" : "HealthRegenArtifact0.png",
+  "rarity" : "Common",
+  "description" : "^green;RenTek^white;, a Chipped Charged Ruby, It Radiates With Energy ^cyan;(Equip in Backpack Slot)",
+  "shortdescription" : "Chipped Charged Ruby",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+  "scripts" : [ "/scripts/artifact0hpregen.lua" ]
+}

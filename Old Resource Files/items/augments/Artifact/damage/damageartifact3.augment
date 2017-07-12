@@ -1,0 +1,19 @@
+{
+  "itemName" : "damageartifact3",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "damageartifact3.png",
+  "description" : "^green;RenTek^white;, an Artifact of Exceptional Power, Damage IV Augment.",
+  "shortdescription" : "Relic of Catastrophe",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damage3",
+    "displayName" : "Relic of Catastrophe",
+    "displayIcon" : "/items/augments/Artifact/damage/damageartifact3.png",
+    "effects" : [ "aedamageaugment3" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

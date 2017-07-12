@@ -1,0 +1,19 @@
+{
+  "itemName" : "HealthRegenArtifact3",
+  "price" : 1800,
+  "inventoryIcon" : "HealthRegenArtifact3.png",
+  "rarity" : "Common",
+  "description" : "^green;RenTek^white;, a Flawless Charged Ruby, It Radiates With Energy ^cyan;(Equip in Backpack Slot)",
+  "shortdescription" : "Flawless Charged Ruby",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+  "statusEffects" : [
+    {
+      "stat" : "rthealthregeneration",
+      "amount" : 1.08
+    }
+  ]
+}

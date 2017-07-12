@@ -1,0 +1,20 @@
+{
+  "itemName" : "aehealthartifact4",
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "RenTek Augment",
+  "inventoryIcon" : "aehealthartifact4.png",
+  "description" : "^green;RenTek^white;, a Perfect Ruby That Boost's Vitality a Lot, Health V Augment.",
+  "shortdescription" : "Perfect Ruby",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "health4",
+    "displayName" : "Perfect Ruby",
+    "displayIcon" : "/items/augments/Artifact/health/aehealthartifact4.png",
+    "effects" : [ "aehealthaugment4" ]
+  },
+
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/minerbeam",
+    "value": "/items/active/weapons/ranged/abilities/minerbeam/minerbeam.weaponability"
+  },
+    {
+    "op": "add",
+    "path": "/minerbeamalt",
+    "value": "/items/active/weapons/ranged/abilities/minerbeam/minerbeamalt.weaponability"
+  }
+]
